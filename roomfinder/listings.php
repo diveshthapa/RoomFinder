@@ -107,7 +107,7 @@
             </div>
             <div class="col-md-2  mr-4">
                 <div class="thumbnail">
-                    <img class="thumb-img" src="images/p8.jpg" alt="Lights" style="width:100%;border-radius: 0.8rem;">
+                    <img class="thumb-img" src="images/t3.jpg" alt="Lights" style="width:100%;border-radius: 0.8rem;">
                         <h3>Land</h3>  
                     </a>
                 </div>
