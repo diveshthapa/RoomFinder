@@ -56,6 +56,8 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Help</a>
           </li>
+          <button type="button" class="btn btn-success">Post Property Free</button>
+           <button type="button" class="btn btn-outline-primary btn-sm">Login</button>
 
         </ul>
       </div>
