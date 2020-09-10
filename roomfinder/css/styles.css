@@ -23,11 +23,12 @@
   /*for bg-img*/
   .bgimage {
     max-width: 100%;
+    height: auto;
     background-image: linear-gradient(rgba(150,105,97,0.67) 0%,rgba(2,0,76,0.84)100% ),
     url('/images/homeimg.jpg');
     background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: scroll;
+    background-attachment: fixed;
+    object-fit: cover;
 }
 
 .page-header{
@@ -413,17 +414,3 @@ h6{
 .foot-img{
   z-index: 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
