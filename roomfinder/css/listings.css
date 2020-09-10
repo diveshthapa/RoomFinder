@@ -49,19 +49,18 @@ h1{
 .thumb-img{
   object-fit: cover;
   overflow: hidden;
-  height: 100%;
-  width: auto; 
+  
   
 }       
 
   .thumbnail h3{
     font-family: 'Poppins',sans-serif;
-    position:absolute;
-    top:45%;
+    position:fixed;
+    
     left:0;
     color: white;
     width:100%;
-    text-align:center;
+    
     margin:0;
     z-index: 10;
 }
@@ -112,12 +111,12 @@ h1{
 
 }
 .product-details {
-  padding: 10px;
+  padding: 5px;
 }
 .product-catagory {
   
-  font-size: 15.4px;
-  color: black;
+  font-size: 12px;
+  color: rgb(26, 25, 25);
   
 }
 
