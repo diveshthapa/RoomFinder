@@ -68,10 +68,10 @@
   <!-- Page Wrapper -->
 
 
-  <header class="page-header bgimage mt-5 img-fluid">
+  <header class="page-header bgimage img-fluid mt-5 ">
     <div class="container ">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-md-6">
+      <div class="row align-items-center">
+        <div class="col-md-8">
           <h1>find your perfect home</h1>
           <p style="font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
           font-size: 18px;
