@@ -96,14 +96,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-2 mr-4">
-                <div class="thumbnail">
-                    <img class="thumb-img" src="images/p8.jpg" alt="Lights" style="width:100%;border-radius: 0.8rem;">
-                        <h3>Land</h3>  
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-2 mr-4 ">
+           <div class="col-md-2 mr-4 ">
                 <div class="thumbnail">
                     <img class="thumb-img" src="images/p3.jpg" alt="Lights" style="width:100%; border-radius: 0.8rem;">
                         <h3>Flat</h3>  
@@ -112,8 +105,8 @@
             </div>
             <div class="col-md-2 mr-4">
                 <div class="thumbnail">
-                    <img class="thumb-img" src="images/p4.jpg" alt="Lights" style="width:100%;border-radius: 0.8rem;">
-                        <h3>Buildings</h3>  
+                    <img class="thumb-img" src="images/p7.jpg" alt="Lights" style="width:100%;border-radius: 0.8rem;">
+                        <h3>Land</h3>  
                     </a>
                 </div>
             </div>
