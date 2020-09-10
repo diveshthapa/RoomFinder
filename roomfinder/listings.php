@@ -112,7 +112,7 @@
             </div>
             <div class="col-md-2 mr-4">
                 <div class="thumbnail">
-                        <img class="thumb-img" src="images/p5.jpg" alt="Lights" style="width:100%;border-radius: 0.8rem;">
+                        <img class="thumb-img" src="images/p4.jpg" alt="Lights" style="width:100%;border-radius: 0.8rem;">
                         <h3>Apartments</h3>  
                     </a>
                 </div>
