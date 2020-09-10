@@ -59,6 +59,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Help</a>
                     </li>
+                    <button type="button" class="btn btn-success">Post Property Free</button>
+                    <button type="button" class="btn btn-outline-primary btn-sm">Login</button>
 
                 </ul>
             </div>
@@ -69,8 +71,8 @@
 
 
     <header>
-    <div class="jumbotron jumbotron-image img-fluid mt-5 mx-3" 
-    style="background-image: url('images/listingcover.jpg'); background-size:cover; ">
+    <div class="jumbotron jumbotron-image img-fluid mt-5 px-5" 
+    style="background-image: url('images/listingcover.jpg'); background-size:cover; width:100%; ">
         <div class="container">
             <h1 class="mt-5 pt-5">Looking for a property?</h1>
             <p class="headp pt-4">Searching your dream home made easy.</p>
@@ -86,24 +88,24 @@
     </div>
      </header>
 
-    <div class="categories mx-4">
+    <div class="categories container-fluid">
         <h3 style="font-family: 'Poppins',sans-serif;">Properties in Nepal to Buy or Rent</h3>
         <div class="row mt-5">
-            <div class="col-md-2 mr-4">
+            <div class="col-md-2 col-sm-1 mr-4">
                 <div class="thumbnail">
                     <img class="thumb-img" src="images/p1.jpg" alt="Lights" style="width:100%;border-radius: 0.8rem;">
                         <h3>House</h3>  
                     </a>
                 </div>
             </div>
-           <div class="col-md-2 mr-4 ">
+           <div class="col-md-2 col-sm-1 mr-4 ">
                 <div class="thumbnail">
                     <img class="thumb-img" src="images/p3.jpg" alt="Lights" style="width:100%; border-radius: 0.8rem;">
                         <h3>Flat</h3>  
                     </a>
                 </div>
             </div>
-            <div class="col-md-2 mr-4">
+            <div class="col-md-2  mr-4">
                 <div class="thumbnail">
                     <img class="thumb-img" src="images/p8.jpg" alt="Lights" style="width:100%;border-radius: 0.8rem;">
                         <h3>Land</h3>  
@@ -147,18 +149,18 @@
     ?>
 
 <div class="row ">
-<div class="product-card ml-5 my-3  justify-content-center align-items-center">
+<div class="product-card container mb-3 mx-4">
   <div class="badge">Hot</div>
   <div class="product-tumb img-fluid">
     <img src="<?php echo 
-    $product['image'];  ?>" alt="Listings">
+    $product['image'];  ?>" alt="Listings" style="height:180px; width:100%">
   </div>
   
-  <div class="product-details">
-    <span class="product-catagory"><h6><dt><?php echo $product['name'];  ?></span></h6></dt>
-    <p class="text-muted"><i class="fa fa-map-marker mr-2"></i><?php echo $product['location'];  ?></p>
-    <p class="text-muted"><i class="fa fa-map mr-2"></i><?php echo $product['area'];  ?></p>
-    <p><dt> &#x20B9 <?php echo $product['price'];  ?><dt></p>
+  <div class="product-details mt-3">
+    <span class="product-catagory"><dt><?php echo $product['name'];  ?></span></dt><br>
+    <p class="text-muted small"><i class="fa fa-map-marker mr-2"></i><?php echo $product['location'];  ?><br>
+    <i class="fa fa-map mr-2"></i><?php echo $product['area'];  ?></p>
+    <p><dt> NPR. <?php echo $product['price'];  ?><dt></p>
   </div>
 </div>
 </div>
