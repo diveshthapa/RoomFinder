@@ -9,9 +9,17 @@
 ## Contributor
 
 Thank you for contributing to this Project.
-- [DiveshThapa](https://github.com/diveshthapa).
+- [DiveshThapa](https://github.com/diveshthapa)
  
   <br>
+
+## Screnshots :
+Sample Image             
+:-------------------------:
+![sampleimage](https://raw.githubusercontent.com/diveshthapa/RoomFinder/master/roomfinder/roomfinder.png)
+
+
+
 
 ## License
 
